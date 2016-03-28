@@ -1,0 +1,6 @@
+framework module MyTapbar {
+  umbrella header "MyTapbar-umbrella.h"
+
+  export *
+  module * { export * }
+}
