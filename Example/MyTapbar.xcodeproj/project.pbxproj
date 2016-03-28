@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BFE52FE1CA8DED7002845EF /* MyTapbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE52FD1CA8DED7002845EF /* MyTapbar.m */; };
 		5413128D08FFF05FB8AC9357 /* Pods_MyTapbar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196CB09A5A4D917521B61CBB /* Pods_MyTapbar_Example.framework */; };
 		57D0E9EC828C4641533593ED /* Pods_MyTapbar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3911FFBEF8BAF63D84B55FA /* Pods_MyTapbar_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -38,6 +39,8 @@
 /* Begin PBXFileReference section */
 		156CCBB983B05FFAF26AFEEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		196CB09A5A4D917521B61CBB /* Pods_MyTapbar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTapbar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BFE52FC1CA8DED7002845EF /* MyTapbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTapbar.h; sourceTree = "<group>"; };
+		1BFE52FD1CA8DED7002845EF /* MyTapbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTapbar.m; sourceTree = "<group>"; };
 		4918FEF99623BA50D2A16CA0 /* Pods-MyTapbar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTapbar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyTapbar_Tests/Pods-MyTapbar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MyTapbar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTapbar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,9 +96,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BFE52FB1CA8DED7002845EF /* MyTapbar */ = {
+			isa = PBXGroup;
+			children = (
+				1BFE52FC1CA8DED7002845EF /* MyTapbar.h */,
+				1BFE52FD1CA8DED7002845EF /* MyTapbar.m */,
+			);
+			name = MyTapbar;
+			path = ../MyTapbar;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				1BFE52FB1CA8DED7002845EF /* MyTapbar */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for MyTapbar */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -391,6 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* MyTapbarAppDelegate.m in Sources */,
+				1BFE52FE1CA8DED7002845EF /* MyTapbar.m in Sources */,
 				6003F5A7195388D20070C39A /* MyTapbarViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
