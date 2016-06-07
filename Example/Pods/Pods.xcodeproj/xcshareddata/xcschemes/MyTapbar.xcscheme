@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5A9078365FBA63618C9CF1DB'
+               BlueprintIdentifier = '348392642DE51554A8B89205'
                BlueprintName = 'MyTapbar'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'MyTapbar.framework'>

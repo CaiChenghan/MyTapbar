@@ -1,6 +1,6 @@
 {
   "name": "MyTapbar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "多item点击.",
   "description": "多item点击集成。",
   "homepage": "https://github.com/CaiChenghan/MyTapbar",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/CaiChenghan/MyTapbar.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "7.0"
@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "Addition": [
-      "~> 0.0.7"
+
     ]
   }
 }

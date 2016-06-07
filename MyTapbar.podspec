@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MyTapbar"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "多item点击."
 
 # This description is used to generate tags and improve search results.
@@ -37,5 +37,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Addition', '~> 0.0.7'
+  s.dependency 'Addition'
 end
